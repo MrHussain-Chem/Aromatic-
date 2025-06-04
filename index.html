@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aromatic Chemistry - AQA A-Level Chemistry Revision</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .page-break { page-break-after: always; }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 10mm;
+            background: white;
+        }
+        h1 {
+            background: #9b59b6;
+            color: white;
+            padding: 10px;
+            margin: 0 -10mm;
+            text-align: center;
+        }
+        h2 {
+            background: #e74c3c;
+            color: white;
+            padding: 8px;
+            margin: 15px -5mm 10px -5mm;
+        }
+        h3 {
+            color: #9b59b6;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+        }
+        .definition-box {
+            background: #ecf0f1;
+            border-left: 5px solid #e74c3c;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .exam-tip {
+            background: #fff3cd;
+            border: 2px solid #e74c3c;
+            padding: 10px;
+            margin: 10px 0;
+            position: relative;
+        }
+        .exam-tip::before {
+            content: "⚠️ EXAM TIP";
+            font-weight: bold;
+            color: #c0392b;
+        }
+        .example-box {
+            background: #f4ecf7;
+            border: 1px solid #9b59b6;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .practice-question {
+            background: #fef5e7;
+            border: 1px solid #e67e22;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .key-point {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #8e44ad;
+            color: white;
+        }
+        .mechanism-box {
+            background: #f8f9fa;
+            border: 2px solid #6c757d;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .two-column {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+        }
+        ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+        .reaction-arrow {
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+        .structure-comparison {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>AROMATIC CHEMISTRY - AQA A-LEVEL CHEMISTRY REVISION</h1>
+    
+    <div class="definition-box">
+        <strong>Aromatic compound (Arene):</strong> Contains benzene ring(s) with delocalised π electrons<br>
+        <strong>Electrophile:</strong> Electron pair acceptor (positive ion or δ+ end of polar molecule)<br>
+        <strong>Electrophilic substitution:</strong> H atom on benzene replaced by electrophile
+    </div>
+
+    <h2>1. BENZENE STRUCTURE - EVIDENCE AGAINST KEKULÉ</h2>
+    
+    <div class="structure-comparison">
+        <div>
+            <strong>Kekulé Structure (Wrong!)</strong><br>
+            Alternating C=C and C-C bonds<br>
+            Formula: C₆H₆
+        </div>
+        <div>→</div>
+        <div>
+            <strong>Actual Structure</strong><br>
+            All C-C bonds equal length (0.139 nm)<br>
+            Delocalised π system
+        </div>
+    </div>
+
+    <h3>Key Evidence Against Kekulé</h3>
+    <table>
+        <tr>
+            <th>Test</th>
+            <th>Expected (if Kekulé)</th>
+            <th>Actual Result</th>
+            <th>Explanation</th>
+        </tr>
+        <tr>
+            <td>Bromine water</td>
+            <td>Decolourises (like alkenes)</td>
+            <td>NO REACTION</td>
+            <td>No localised C=C bonds</td>
+        </tr>
+        <tr>
+            <td>Bond lengths</td>
+            <td>Alternating short/long</td>
+            <td>All equal (0.139 nm)</td>
+            <td>Intermediate between C-C and C=C</td>
+        </tr>
+        <tr>
+            <td>Hydrogenation ΔH</td>
+            <td>-360 kJ mol⁻¹</td>
+            <td>-208 kJ mol⁻¹</td>
+            <td>More stable by 152 kJ mol⁻¹</td>
+        </tr>
+    </table>
+
+    <div class="exam-tip">
+        <p>The <span class="key-point">152 kJ mol⁻¹</span> difference is the DELOCALISATION ENERGY - memorise this number! It shows benzene is more stable than expected due to electron delocalisation.</p>
+    </div>
+
+    <h3>True Benzene Structure</h3>
+    <div class="example-box">
+        <ul>
+            <li><strong>Planar molecule</strong> - all atoms in same plane</li>
+            <li><strong>120° bond angles</strong> throughout</li>
+            <li>Each C is sp² hybridised with one p orbital</li>
+            <li>p orbitals overlap to form <strong>π system above AND below</strong> ring</li>
+            <li>6 electrons delocalised in this π system</li>
+        </ul>
+    </div>
+
+    <h3>Comparing Reactivity: Cyclohexene vs Benzene</h3>
+    <table>
+        <tr>
+            <th>Property</th>
+            <th>Cyclohexene</th>
+            <th>Benzene</th>
+        </tr>
+        <tr>
+            <td>Electron system</td>
+            <td>Localised π bond</td>
+            <td>Delocalised π system</td>
+        </tr>
+        <tr>
+            <td>With Br₂(aq)</td>
+            <td>Decolourises immediately</td>
+            <td>No reaction</td>
+        </tr>
+        <tr>
+            <td>Type of reaction</td>
+            <td>Addition</td>
+            <td>Substitution (needs catalyst)</td>
+        </tr>
+        <tr>
+            <td>Why?</td>
+            <td>High electron density at C=C attracts electrophiles</td>
+            <td>Delocalised electrons less available</td>
+        </tr>
+    </table>
+
+    <h3>Why Methylbenzene is More Reactive than Benzene</h3>
+    <div class="example-box">
+        <p>Methyl group is <strong>electron-releasing</strong> (positive inductive effect)</p>
+        <ul>
+            <li>Increases electron density in ring</li>
+            <li>Makes ring more attractive to electrophiles</li>
+            <li>Activates 2 and 4 positions (ortho/para directing)</li>
+            <li>Result: Methylbenzene reacts faster than benzene</li>
+        </ul>
+    </div>
+
+    <h2>2. WHY SUBSTITUTION NOT ADDITION?</h2>
+    
+    <div class="mechanism-box">
+        <p>Benzene undergoes <strong>SUBSTITUTION</strong> to preserve the stable delocalised π system</p>
+        <p>Addition would destroy aromaticity (lose 152 kJ mol⁻¹ stability)</p>
+    </div>
+
+    <h2>3. ELECTROPHILIC SUBSTITUTION - GENERAL MECHANISM</h2>
+    
+    <div class="exam-tip">
+        <p>ALL electrophilic substitution follows the SAME pattern - only the electrophile changes!</p>
+    </div>
+
+    <div class="example-box">
+        <h4>Three Steps (ALWAYS):</h4>
+        <ol>
+            <li><strong>Generate electrophile</strong> (usually needs catalyst)</li>
+            <li><strong>Attack by benzene</strong> - forms unstable intermediate</li>
+            <li><strong>Loss of H⁺</strong> - restores aromaticity</li>
+        </ol>
+    </div>
+
+    <h2>4. NITRATION OF BENZENE</h2>
+    
+    <table>
+        <tr>
+            <th>Reagents</th>
+            <td>Conc. HNO₃ + Conc. H₂SO₄ (catalyst)</td>
+        </tr>
+        <tr>
+            <th>Conditions</th>
+            <td>50°C (higher temp gives dinitro products)</td>
+        </tr>
+        <tr>
+            <th>Electrophile</th>
+            <td>NO₂⁺ (nitronium ion)</td>
+        </tr>
+        <tr>
+            <th>Product</th>
+            <td>Nitrobenzene + H₂O</td>
+        </tr>
+    </table>
+
+    <div class="mechanism-box">
+        <h4>Mechanism Steps:</h4>
+        <p><strong>1. Generate NO₂⁺:</strong> HNO₃ + H₂SO₄ → NO₂⁺ + HSO₄⁻ + H₂O</p>
+        <p><strong>2. Attack:</strong> Benzene attacks NO₂⁺ (arrow from ring to N)</p>
+        <p><strong>3. Deprotonation:</strong> HSO₄⁻ removes H⁺, reforming H₂SO₄</p>
+    </div>
+
+    <div class="exam-tip">
+        <p>Common mistake: Writing H⁺ leaves on its own. It MUST be removed by HSO₄⁻ to regenerate the catalyst!</p>
+    </div>
+
+    <h3>Uses of Aromatic Nitro Compounds</h3>
+    <div class="example-box">
+        <ul>
+            <li><strong>Explosives:</strong> TNT (2,4,6-trinitrotoluene)</li>
+            <li><strong>Dyes:</strong> Reduced to make aromatic amines for azo dyes</li>
+            <li><strong>Pharmaceuticals:</strong> Starting materials for many drugs</li>
+        </ul>
+    </div>
+
+    <h3>Reduction of Nitrobenzene</h3>
+    <div class="example-box">
+        <p><strong>Nitrobenzene → Phenylamine (aniline)</strong></p>
+        <ul>
+            <li><strong>Reagents:</strong> Tin (Sn) + conc. HCl</li>
+            <li><strong>Conditions:</strong> Heat under reflux</li>
+            <li><strong>Equation:</strong> C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O</li>
+            <li><strong>Importance:</strong> Phenylamine used to make dyes and pharmaceuticals</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>5. FRIEDEL-CRAFTS ACYLATION</h2>
+    
+    <table>
+        <tr>
+            <th>Reagents</th>
+            <td>Acyl chloride (RCOCl) + AlCl₃ catalyst</td>
+        </tr>
+        <tr>
+            <th>Conditions</th>
+            <td>Heat under reflux (anhydrous - NO water!)</td>
+        </tr>
+        <tr>
+            <th>Electrophile</th>
+            <td>RCO⁺ (acylium ion)</td>
+        </tr>
+        <tr>
+            <th>Product</th>
+            <td>Phenyl ketone + HCl</td>
+        </tr>
+    </table>
+
+    <div class="mechanism-box">
+        <h4>Mechanism Steps:</h4>
+        <p><strong>1. Generate RCO⁺:</strong> RCOCl + AlCl₃ → RCO⁺ + AlCl₄⁻</p>
+        <p><strong>2. Attack:</strong> Benzene attacks RCO⁺</p>
+        <p><strong>3. Deprotonation:</strong> AlCl₄⁻ removes H⁺ → HCl + AlCl₃</p>
+    </div>
+
+    <div class="exam-tip">
+        <p>AlCl₃ is REGENERATED - it's a catalyst! Students often forget to show this in the final step.</p>
+    </div>
+
+    <h2>6. FRIEDEL-CRAFTS ALKYLATION</h2>
+    
+    <div class="example-box">
+        <p><strong>Similar to acylation but:</strong></p>
+        <ul>
+            <li>Uses alkyl halide (e.g., CH₃Cl) instead of acyl chloride</li>
+            <li>Electrophile is R⁺ (carbocation)</li>
+            <li class="key-point">WARNING: Multiple substitutions can occur!</li>
+        </ul>
+    </div>
+
+    <h2>7. COMPARISON OF REACTIONS</h2>
+    
+    <table>
+        <tr>
+            <th>Reaction</th>
+            <th>Electrophile</th>
+            <th>How Generated</th>
+            <th>Catalyst Returns?</th>
+        </tr>
+        <tr>
+            <td>Nitration</td>
+            <td>NO₂⁺</td>
+            <td>HNO₃ + H₂SO₄</td>
+            <td>Yes (H₂SO₄)</td>
+        </tr>
+        <tr>
+            <td>FC Acylation</td>
+            <td>RCO⁺</td>
+            <td>RCOCl + AlCl₃</td>
+            <td>Yes (AlCl₃)</td>
+        </tr>
+        <tr>
+            <td>FC Alkylation</td>
+            <td>R⁺</td>
+            <td>RCl + AlCl₃</td>
+            <td>Yes (AlCl₃)</td>
+        </tr>
+        <tr>
+            <td>Halogenation</td>
+            <td>Br⁺/Cl⁺</td>
+            <td>Br₂ + AlBr₃</td>
+            <td>Yes (AlBr₃)</td>
+        </tr>
+    </table>
+
+    <h2>8. ELECTROPHILE GENERATION - EXAM FOCUS</h2>
+    
+    <div class="exam-tip">
+        <p>You MUST be able to write equations for electrophile generation!</p>
+    </div>
+
+    <div class="example-box">
+        <h4>Key Equations to Memorise:</h4>
+        <ul>
+            <li><strong>Nitration:</strong> HNO₃ + 2H₂SO₄ → NO₂⁺ + H₃O⁺ + 2HSO₄⁻</li>
+            <li><strong>FC Acylation:</strong> CH₃COCl + AlCl₃ → CH₃CO⁺ + AlCl₄⁻</li>
+            <li><strong>FC Alkylation:</strong> CH₃Cl + AlCl₃ → CH₃⁺ + AlCl₄⁻</li>
+            <li><strong>Bromination:</strong> Br₂ + AlBr₃ → Br⁺ + AlBr₄⁻</li>
+        </ul>
+    </div>
+
+    <h2>9. COMMON EXAM MISTAKES TO AVOID</h2>
+    
+    <div class="exam-tip">
+        <h4>Top 5 Mark-Losing Errors:</h4>
+        <ol>
+            <li><strong>Drawing mechanisms:</strong> Arrows must start from ring/bond, NOT from space</li>
+            <li><strong>Catalyst regeneration:</strong> MUST show H₂SO₄/AlCl₃ reformed</li>
+            <li><strong>Temperature for nitration:</strong> 50°C (NOT room temp or higher)</li>
+            <li><strong>Delocalisation energy:</strong> It's 152 kJ mol⁻¹ (memorise!)</li>
+            <li><strong>Intermediate charge:</strong> The + goes INSIDE the ring, not on a C</li>
+        </ol>
+    </div>
+
+    <h2>10. QUICK MECHANISM CHECKLIST</h2>
+    
+    <div class="practice-question">
+        <h4>Before Drawing ANY Mechanism:</h4>
+        <ul>
+            <li>☐ Step 1: Show electrophile generation equation</li>
+            <li>☐ Step 2: Arrow FROM π electrons TO electrophile</li>
+            <li>☐ Step 3: Draw intermediate with + INSIDE ring</li>
+            <li>☐ Step 4: Arrow FROM C-H bond TO ring</li>
+            <li>☐ Step 5: Show H⁺ removed by base (regenerates catalyst)</li>
+            <li>☐ Check all formal charges shown</li>
+            <li>☐ Check catalyst is regenerated</li>
+        </ul>
+    </div>
+
+    <div class="practice-question">
+        <h4>Common 4-6 Mark Question:</h4>
+        <p><strong>Q:</strong> Explain why benzene undergoes substitution rather than addition reactions.</p>
+        <p><strong>Model Answer:</strong></p>
+        <ul>
+            <li>Benzene has delocalised π electrons (1 mark)</li>
+            <li>This makes it 152 kJ mol⁻¹ more stable than expected (1 mark)</li>
+            <li>Addition would break the π system and lose this stability (1 mark)</li>
+            <li>Substitution preserves the aromatic system (1 mark)</li>
+        </ul>
+    </div>
+
+    <div class="exam-tip">
+        <p><strong>Final Tip:</strong> In mechanism questions, marks are given for:<br>
+        1. Correct arrows (from electrons, not to them)<br>
+        2. All intermediates shown<br>
+        3. Correct charges<br>
+        4. Catalyst regeneration<br>
+        Practice drawing these until they're automatic!</p>
+    </div>
+
+</body>
+</html>
